@@ -1,0 +1,213 @@
+@import url(http://allfont.ru/allfont.css?fonts=lucida-sans-unicode);
+@font-face{
+    font-family: weathericons;
+    src: url(font/weathericons-regular-webfont.ttf); 
+}
+
+
+*,
+*::before,
+*::after{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body{
+    background: #3399CC;
+}
+
+ul li{
+    list-style: none;
+    text-align: center;
+    color: #fff;
+
+}  
+
+article{
+    width: 920px;
+    margin: 0 auto;
+    
+}
+
+p{
+   position: relative;
+   bottom: 20px;
+}
+span{
+    opacity: 0.5;
+    vertical-align: 20px;
+}
+
+.first{
+    font-size: 0;
+    padding: 0;
+}
+
+.first li{
+    /* border: 2px solid #fff; */
+    font-size: 28px;
+    display: inline-block;
+
+}
+
+ul p{
+    opacity: 0.5;
+}
+
+i{
+    font-size: 28px;
+    margin-left: 10px;
+}
+
+h3{
+    font-weight: 100;
+}
+
+.lis {
+    width: 450px;
+    
+}
+.tom {
+    width: 225px;
+    background: #33CCCC;
+
+}
+.tel{
+    width: 225px;
+    background: #996699;
+}
+.par{
+    width: 220px;
+    background: #B84343;
+
+}
+.bel{
+    width: 225px;
+    background: #E2674A;
+}
+.ter{
+    width: 225px;
+    background: #FFCC66;
+
+}
+.iva{
+    width: 225px;
+    background: #99CC99;
+
+}
+.bat{
+    width: 220px;
+    background: #649696;
+   
+ 
+}
+
+.kyi {
+    width: 455px;
+    background: #CC6699;
+
+    
+}
+
+.lvi{
+    width: 225px;
+    background: #339966;
+
+}
+
+.kri{
+    width: 910px;
+    background: #666699;
+}
+
+/*СТОП*/
+
+.first>li {
+    border-right: 5px solid #fff;
+    border-bottom: 5px solid #fff;/*всім рамка з права і знизу*/
+}
+
+li:nth-child(-n+3) {
+    border-top: 5px solid #fff;/*рамки з гори*/
+
+}
+
+li:nth-child(3n+1):nth-child(-n+5){
+    border-left: 5px solid #fff;/*рвмка з ліва 1 і 4 колнці */
+}
+
+li:nth-last-child(3n+1):nth-last-child(-n+5){
+    border-left: 5px solid #fff;/*рамка з ліва в 8 і 11 колонці*/
+}
+
+/*виділення*/
+
+.city{
+    box-sizing: content-box;
+}
+
+.first:hover .city:not(:hover){
+ opacity: 0.5;
+ }
+
+ .tom:hover{
+     border-left: 5px solid #fff;
+     margin-left: -5px;
+ }
+
+ .tel:hover{
+    border-left: 5px solid #fff;
+    margin-left: -5px;
+}
+
+.par:hover{
+    border-top: 5px solid #fff;
+    margin-top: -5px;
+}
+.bel:hover{
+    border-top: 5px solid #fff;
+    border-left: 5px solid #fff;
+    margin: -5px 0 0 -5px;
+}
+.ter:hover{
+    border-top: 5px solid #fff;
+    border-left: 5px solid #fff;
+    margin: -5px 0 0 -5px;
+}
+.iva:hover{
+    border-top: 5px solid #fff;
+    border-left: 5px solid #fff;
+    margin: -5px 0 0 -5px;
+}
+.bat:hover{
+    border-top: 5px solid #fff;
+    margin-top: -5px;
+}
+.kyi:hover{
+    border-top: 5px solid #fff;
+    border-left: 5px solid #fff;
+    margin: -5px 0 0 -5px;
+}
+.lvi:hover{
+    border-top: 5px solid #fff;
+    border-left: 5px solid #fff;
+    margin: -5px 0 0 -5px;
+}
+.kri:hover{
+    border-top: 5px solid #fff;
+    margin-top: -5px;
+}
+/*STOP*/
+header{ 
+    text-align: start;
+    padding-left: 255px;
+    color: white;
+}
+
+footer{
+    padding-top: 25px; 
+    text-align: start;
+    padding-left: 255px;
+    color: white;
+}
